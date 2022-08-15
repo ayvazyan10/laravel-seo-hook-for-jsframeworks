@@ -1,4 +1,4 @@
-# laravel-seo-hook-for-js_frameworks
+# laravel seo hook for js frameworks
 simple hook for adding meta tags to &lt;head>&lt;/head> for js frameworks inertia,react,vue, etc...
 
 1. in app/Meta.php put Meta.php code from repo.
