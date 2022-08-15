@@ -5,7 +5,7 @@ simple hook for adding meta tags to &lt;head>&lt;/head> for js frameworks inerti
 
 2. in your main blade file (example: app.blade.php) add this
 ```
-{!! \App\Meta::render() !!}
+{!! \App\Meta::baseRender() !!}
 ```
 
 3. in app/Providers/EventServiceProvider.php add this (also you need to install laravel/octane) composer require laravel/octane
