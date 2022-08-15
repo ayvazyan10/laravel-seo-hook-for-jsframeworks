@@ -21,3 +21,14 @@ public function boot()
     });
 }
 ```
+
+4. finally in your controller you can do this
+```
+use App\Meta;
+
+public function index() {
+    Meta::addBaseMeta('<title>My Awesome Title</title>');
+    
+    return Inertia::render('Dashboard');
+}
+```
